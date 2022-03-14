@@ -1,0 +1,57 @@
+﻿Seed,Region,Team,Bucket
+1,East,Baylor,1
+2,East,Kentucky,1
+3,East,Purdue,1
+4,East,UCLA,4
+5,East,Saint Mary's,4
+6,East,Texas,6
+7,East,Murray State,6
+8,East,North Carolina,8
+9,East,Marquette,8
+10,East,San Francisco,8
+11,East,Virginia Tech,11
+12,East,Wyoming/Indiana,11
+1314,East,Akron / Yale,11
+1516,East,Saint Peters / Norfolk State,11
+1,Midwest,Kansas,1
+2,Midwest,Auburn,1
+3,Midwest,Wisconsin,1
+4,Midwest,Providence,4
+5,Midwest,Iowa,4
+6,Midwest,LSU,6
+7,Midwest,USC,6
+8,Midwest,San Diego State,8
+9,Midwest,Creighton,8
+10,Midwest,Miami,8
+11,Midwest,Iowa State,11
+12,Midwest,Richmond,11
+1314,Midwest,South Dakota State / Colgate,11
+1516,Midwest,Jacksonville State / Texas Southern/Texas A&M-CC,11
+1,South,Arizona,1
+2,South,Villanova,1
+3,South,Tennessee,1
+4,South,Illinois,4
+5,South,Houston,4
+6,South,Colorado State,6
+7,South,Ohio State,6
+8,South,Seton Hall,8
+9,South,TCU,8
+10,South,Loyola Chicago,8
+11,South,Michigan,11
+12,South,UAB,11
+1314,South,Chattanooga / Longwood,11
+1516,South,Delaware / Wright State/Bryant,11
+1,West,Gonzaga,1
+2,West,Duke,1
+3,West,Texas Tech,1
+4,West,Arkansas,4
+5,West,UConn,4
+6,West,Alabama,6
+7,West,Michigan State,6
+8,West,Boise State,8
+9,West,Memphis,8
+10,West,Davidson,8
+11,West,Rutgers/Notre Dame,11
+12,West,New Mexico State,11
+1314,West,Vermont / Montana State,11
+1516,West,CSU Fullerton / Georgia State,11
