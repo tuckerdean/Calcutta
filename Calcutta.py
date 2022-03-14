@@ -3,6 +3,17 @@ import numpy as np
 import random
 from time import sleep
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 class Calcutta:
     '''
     Class object to run the calcutta draft based on availability pools.
@@ -57,7 +68,7 @@ class Calcutta:
         random.shuffle(self.teamsAvailable)
         team = self.teamsAvailable.pop()
         seed = self.teams.loc[self.teams['Team'] == team]['Seed'].values[0]
-        print(f"Round {self.round}: {seed} {team}")
+        print(f"{bcolors.BOLD}{bcolors.OKGREEN}Round {self.round}: {seed} {team}{bcolors.ENDC}")
         self.roundTeam.append((self.round, seed, team))
         self.round += 1
 
@@ -88,6 +99,6 @@ class Calcutta:
             while len(winner) == 0:
                 # This is to avoid double clicking enter
                 # and jumping to the next round
-                print("Winner of the round is: ")
-                winner = input()
+                print(f"{bcolors.WARNING}Winner of the round is: {bcolors.ENDC}")
+                winner = input(f'{bcolors.FAIL}')
             self.auctionWinner.append(winner)
