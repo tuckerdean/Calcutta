@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import random
+import sys
 from time import sleep
 
 class bcolors:
@@ -102,3 +103,8 @@ class Calcutta:
                 print(f"{bcolors.WARNING}Winner of the round is: {bcolors.ENDC}")
                 winner = input(f'{bcolors.FAIL}')
             self.auctionWinner.append(winner)
+
+if __name__ == "__main__":
+    random_seed = int(sys.argv[1])
+    c = Calcutta('teams_2022.csv', 'round_eligibility_2022.csv', random_seed)
+    c.draft()
